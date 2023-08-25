@@ -15,13 +15,13 @@ const registerUser = async (req, res) => {
 
     //create user with username,email for getting email id
     const newUser = await User.create(
-      {
-      username:req.body.username,
-     email:req.body.email,
-     password:req.body.password,
-      EmailId:email.id,
-   }
-  // req.body
+      //{
+     // username:req.body.username,
+    // email:req.body.email,
+     //password:req.body.password,
+     // EmailId:email.id,
+   //}
+   req.body
   );
       res.status(201).json({
       message: "Successfully registered",
