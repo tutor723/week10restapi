@@ -1,0 +1,7 @@
+POST http://localhost:5001/email/addEmail
+
+{
+
+  "emailName":"username1@abc.com"
+ 
+}

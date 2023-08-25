@@ -1,0 +1,10 @@
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNjkyODQ1MTY2fQ.n7xr6kdfzel8Ws0SxkxhsSdP6BivHeM4pIZpji7KWCY
+
+
+
+
+{
+"username":"username2",
+  "email":"username2@abc.com",
+  "password":"password2"
+}
