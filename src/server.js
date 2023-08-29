@@ -30,11 +30,7 @@ app.use(emailRouter);
 app.get("/health", (req, res) => {
   res.status(200).json({ message: "api is working" });
 });
-app.get("/health", (req, res) => {
 
-  res.status(200).json({ message: "api is working" });
-
-});
 app.listen(port, () => {
   syncTables();
   console.log(`App listening on port ${port}`);
