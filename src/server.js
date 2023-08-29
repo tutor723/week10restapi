@@ -19,7 +19,7 @@ const syncTables = () => {
   User.sync({ alter: true, force: false });
   Email.sync({ alter: true, force: false });
 
-  //association between eamil and user
+  //association between email and user
   Email.hasMany(User);
   User.belongsTo(Email);
 };
